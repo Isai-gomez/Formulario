@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Login Lira Records</title>
-    <link rel="stylesheet" href= "./css/estilos.css">
-    <link rel="stylesheet" href= "./css/efonts.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montez" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="./css/efonts.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montez"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="contenedor">
-        <header>
-            <h1 class="titulo">Lira Records</h1>
-            <a href="">Registrate</a>
-        </header>
-        <div class="login">
-            <article class="fondo">
-                <img src="img/lira2.png" alt="User">
-                <h3>Inicio de sesión</h3>
-                <form action="index.html" method="POST">
-                    <span class=""><i class="fas fa-user"></i></span>
-                    <input type="text" class="inp" name="user"><br>
-                    <span class=""><i class="fas fa-key"></i></span>
-                    <input type="password" class="inp" name="pass"><br>
-                    <a href="" class="he">He olvidado mi contraseña</a>
-                    <input class="boton" type="submit" name="inicio" value="Iniciar Sesión">
-                </form>
-            </article>
+      <header>
+        <h1 class="titulo">Lira Records</h1>
+        <a href="">Registrate</a>
+      </header>
+      <div class="login">
+        <div class="fondo">
+          <img src="img/lira2.png" alt="User" />
+          <h3>Inicio de sesión</h3>
+
+          <form action="index.html" method="POST">
+            <div class="contener">
+              <span class=""><i class="fas fa-user"></i></span>
+              <input type="text" class="inp" name="user" />
+            </div>
+
+            <span class=""><i class="fas fa-key"></i></span>
+            <input type="password" class="inp" name="pass" /><br />
+            <a href="" class="he">He olvidado mi contraseña</a>
+            <input
+              class="boton"
+              type="submit"
+              name="inicio"
+              value="Iniciar Sesión"
+            />
+          </form>
         </div>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
